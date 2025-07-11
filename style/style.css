@@ -223,3 +223,61 @@ footer ul a {
 .list-section ul li {
   margin: 0px 30px 30px 0px;
 }
+
+/* review */
+
+.testimonial {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 350px;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.stars-container {
+  font-size: 30px;
+  color: #d3d3d3;
+}
+
+.title {
+  font-weight: semi bold;
+  font-size: 24px;
+  color: #1e1e1e;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.reviewer {
+  display: flex;
+  gap: 10px;
+}
+
+.stars-container img {
+  width: 30px;
+  height: 30px;
+}
+.reviewer img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.reviewer-info span {
+  display: block;
+  font-weight: bold;
+}
+
+.reviewer-info small {
+  color: #888;
+}
+
+.section-col {
+  display: flex;
+  gap: 10px;
+}
